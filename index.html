@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grade Book</title>
+    <!--Bootstrap Styles Go Here-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--My Styles Go Here-->
+    <link rel="stylesheet" href="gradebook.css">
+    <!--My favicon goes here-->
+    <link rel="icon" href="" type="image/gif" sizes="32x32">
+</head>
+<body>
+<div class="container w-75">
+    <h1>Grade Book</h1>
+
+    <fieldset>
+
+        <form id="gradebook">
+
+            <div class="form-group">
+                <label for="firstName">Enter Student's First Name (Required)</label>
+                <input name="firstName" id="firstName" type="text" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label for="lastName">Enter Student's Last Name (Required)</label>
+                <input name="lastName" id="lastName" type="text" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label for="pointsEarned">Enter the Points Earned (Required)</label>
+                <input name="pointsEarned" id="pointsEarned" type="number" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label for="pointsPossible">Enter Total Points Possible (Required)</label>
+                <input name="pointsPossible" id="pointsPossible" type="text" class="form-control">
+            </div>
+
+            <button class="btn btn-primary">Submit</button>
+        </form>
+    </fieldset>
+    <p id="message"></p>
+</div>
+
+</body>
+<footer class="footer">
+    <div class="container">
+        <footer>
+
+        </footer>
+    </div>
+</footer>
+
+<!--JQuery Goes Here-->
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<!--JQuery Validation Goes Here-->
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js"></script>
+<!--Popper and Bootstrap JavaScript-->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!--My JavaScript Goes Here-->
+<script src="code.js"></script>
+
+</html>

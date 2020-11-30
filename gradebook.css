@@ -1,0 +1,17 @@
+body {
+    background-color: beige;
+}
+
+.container {
+    background-color: lightgrey;
+}
+
+button {
+    margin-bottom: 10px;
+}
+
+#message {
+    margin-top: 25px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
